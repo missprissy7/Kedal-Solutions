@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — KEDAL Solutions</title>
+  <meta name="description" content="Let's start a conversation. Book a free discovery call or reach out to KEDAL Solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo">KEDAL <span>Solutions</span></a>
+      <button class="navbar__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="customers.html">Customers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="navbar__cta">Book a Discovery Call</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Let's Start a Conversation.</h1>
+      <p class="hero__subtitle">Whether you're looking to streamline operations or explore how intelligent automation can augment your team's work, we'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Discovery Call CTA -->
+  <section class="section">
+    <div class="container text-center">
+      <h2>Book a Free Discovery Call</h2>
+      <p class="section-subtitle">Every engagement starts with a 30-minute conversation. We'll learn about your organization, discuss your challenges, and recommend the right starting point — no commitment, no pressure, no sales pitch.</p>
+      <div style="margin-top: 2rem;">
+        <!-- Replace this href with your actual Calendly or scheduling tool link -->
+        <a href="#" class="btn btn--primary" style="font-size: 1.1rem; padding: 1rem 2.5rem;">Schedule Your Call</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info + Form -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Left: Info -->
+        <div>
+          <h2>Get in Touch</h2>
+          <div style="margin-top: 2rem;">
+            <div class="contact-info__item">
+              <div class="contact-info__icon">📧</div>
+              <div class="contact-info__text">
+                <h4>Email</h4>
+                <p><a href="mailto:info@kedalsolutions.com">info@kedalsolutions.com</a></p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">📞</div>
+              <div class="contact-info__text">
+                <h4>Phone</h4>
+                <p>(404) 677-1442</p>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">📍</div>
+              <div class="contact-info__text">
+                <h4>Location</h4>
+                <p>Atlanta, GA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div>
+          <h2>Send Us a Message</h2>
+          <form class="contact-form" style="margin-top: 2rem;" action="#" method="POST">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="organization">Organization *</label>
+            <input type="text" id="organization" name="organization" required>
+
+            <label for="org-size">Organization Size</label>
+            <select id="org-size" name="org-size">
+              <option value="">Select...</option>
+              <option value="1-49">1–49 employees</option>
+              <option value="50-200">50–200 employees</option>
+              <option value="200-500">200–500 employees</option>
+              <option value="500+">500+ employees</option>
+            </select>
+
+            <label for="industry">Industry</label>
+            <select id="industry" name="industry">
+              <option value="">Select...</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="professional-services">Professional Services</option>
+              <option value="nonprofit">Nonprofit</option>
+              <option value="government">Government</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="challenge">What's your biggest challenge right now?</label>
+            <textarea id="challenge" name="challenge" rows="4"></textarea>
+
+            <label for="referral">How did you hear about us?</label>
+            <select id="referral" name="referral">
+              <option value="">Select...</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="referral">Referral</option>
+              <option value="search">Google Search</option>
+              <option value="other">Other</option>
+            </select>
+
+            <button type="submit" class="btn btn--primary" style="margin-top: 0.5rem; width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to Expect -->
+  <section class="section">
+    <div class="container text-center">
+      <h2>What to Expect After You Reach Out</h2>
+      <div class="expect-steps">
+        <div class="expect-step">
+          <div class="expect-step__number">1</div>
+          <h4>We respond within 24 hours</h4>
+          <p>Usually faster.</p>
+        </div>
+        <div class="expect-step">
+          <div class="expect-step__number">2</div>
+          <h4>Free 30-minute discovery call</h4>
+          <p>No prep needed on your end.</p>
+        </div>
+        <div class="expect-step">
+          <div class="expect-step__number">3</div>
+          <h4>We listen first</h4>
+          <p>We ask questions about your organization, not pitch you.</p>
+        </div>
+        <div class="expect-step">
+          <div class="expect-step__number">4</div>
+          <h4>We recommend a starting point</h4>
+          <p>Even if that means we're not the right fit — we'll tell you honestly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">KEDAL <span>Solutions</span></div>
+          <p class="footer__tagline">Intelligent Operations. Amplified Results.</p>
+          <p>info@kedalsolutions.com<br>(404) 677-1442<br>Atlanta, GA</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:info@kedalsolutions.com">Email Us</a></li>
+            <li><a href="contact.html">Book a Discovery Call</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 KEDAL Solutions. All rights reserved.</p>
+        <p>Atlanta, GA</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
