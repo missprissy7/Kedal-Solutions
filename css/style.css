@@ -266,9 +266,9 @@ p {
 
 /* --- Hero --- */
 .hero {
-  background: linear-gradient(145deg, var(--navy) 0%, var(--navy-light) 60%, #1e293b 100%);
+  background: linear-gradient(145deg, #0e7490 0%, #0891B2 50%, #06B6D4 100%);
   color: var(--white);
-  padding: 4.5rem 0;
+  padding: 2.75rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -434,9 +434,9 @@ p {
 
 /* --- CTA Banner --- */
 .cta-banner {
-  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  background: linear-gradient(145deg, #0e7490 0%, #0891B2 50%, #06B6D4 100%);
   color: var(--white);
-  padding: 4rem 0;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -902,7 +902,7 @@ p {
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.4rem; }
 
-  .hero { padding: 3rem 0; }
+  .hero { padding: 2rem 0; }
   .hero h1 { font-size: 1.85rem; }
   .section { padding: 3.5rem 0; }
 
