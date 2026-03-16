@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="customers.html">Customers</a></li>
+        <li><a href="customers.html">Our Work</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="contact.html" class="navbar__cta">Book a Discovery Call</a></li>
       </ul>
@@ -44,8 +45,7 @@
       <h2>Book a Free Discovery Call</h2>
       <p class="section-subtitle">Every engagement starts with a 30-minute conversation. We'll learn about your organization, discuss your challenges, and recommend the right starting point — no commitment, no pressure, no sales pitch.</p>
       <div style="margin-top: 2rem;">
-        <!-- Replace this href with your actual Calendly or scheduling tool link -->
-        <a href="#" class="btn btn--primary" style="font-size: 1.1rem; padding: 1rem 2.5rem;">Schedule Your Call</a>
+        <a href="mailto:info@kedalsolutions.com?subject=Discovery%20Call%20Request&body=Hi%20KEDAL%20Solutions%2C%0A%0AI'd%20like%20to%20schedule%20a%20free%20discovery%20call.%0A%0AName%3A%20%0AOrganization%3A%20%0ABest%20times%20to%20meet%3A%20%0A%0AThank%20you!" class="btn btn--primary" style="font-size: 1.1rem; padding: 1rem 2.5rem;">Schedule Your Call</a>
       </div>
       <div style="margin-top: 3rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.08); max-width: 800px; margin-left: auto; margin-right: auto;">
         <img src="images/business-meeting.jpg" alt="Professional consultation" style="width: 100%; height: auto; display: block;">
@@ -69,10 +69,10 @@
               </div>
             </div>
             <div class="contact-info__item">
-              <div class="contact-info__icon">📞</div>
+              <div class="contact-info__icon">📅</div>
               <div class="contact-info__text">
-                <h4>Phone</h4>
-                <p>Available upon request</p>
+                <h4>Schedule a Call</h4>
+                <p><a href="mailto:info@kedalsolutions.com?subject=Discovery%20Call%20Request">Book a free discovery call</a></p>
               </div>
             </div>
             <div class="contact-info__item">
@@ -88,7 +88,8 @@
         <!-- Right: Form -->
         <div>
           <h2>Send Us a Message</h2>
-          <form class="contact-form" style="margin-top: 2rem;" action="#" method="POST">
+          <form class="contact-form" style="margin-top: 2rem;" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="hidden" name="_subject" value="New inquiry from KEDAL Solutions website">
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" required>
 
@@ -180,7 +181,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="customers.html">Customers</a></li>
+            <li><a href="customers.html">Our Work</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>

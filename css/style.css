@@ -9,8 +9,8 @@
   --teal: #0891B2;
   --teal-light: #06B6D4;
   --teal-dark: #0e7490;
-  --gold: #61CE70;
-  --gold-light: #7dd98a;
+  --accent-green: #61CE70;
+  --accent-green-light: #7dd98a;
   --white: #ffffff;
   --off-white: #f8fafc;
   --gray-100: #f1f5f9;
@@ -171,14 +171,14 @@ p {
 }
 
 .btn--gold {
-  background: var(--gold);
+  background: var(--accent-green);
   color: var(--navy);
-  border-color: var(--gold);
+  border-color: var(--accent-green);
 }
 
 .btn--gold:hover {
-  background: var(--gold-light);
-  border-color: var(--gold-light);
+  background: var(--accent-green-light);
+  border-color: var(--accent-green-light);
 }
 
 /* --- Navigation --- */
@@ -312,7 +312,7 @@ p {
 
 .hero__subtitle {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 560px;
   margin-bottom: 1.75rem;
   line-height: 1.65;
