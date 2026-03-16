@@ -89,7 +89,11 @@
         <div>
           <h2>Send Us a Message</h2>
           <form class="contact-form" style="margin-top: 2rem;" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <!-- Formspree configuration: Replace YOUR_FORM_ID with your Formspree endpoint -->
+            <!-- Steps: 1) Go to formspree.io  2) Sign up free  3) Create a form pointing to info@kedalsolutions.com  4) Copy the form ID (e.g. "xpznqabc") and replace YOUR_FORM_ID above -->
             <input type="hidden" name="_subject" value="New inquiry from KEDAL Solutions website">
+            <input type="hidden" name="_next" value="https://missprissy7.github.io/Kedal-Solutions/thank-you.html">
+
             <label for="name">Name *</label>
             <input type="text" id="name" name="name" required>
 
@@ -100,7 +104,7 @@
             <input type="text" id="organization" name="organization" required>
 
             <label for="org-size">Organization Size</label>
-            <select id="org-size" name="org-size">
+            <select id="org-size" name="Organization Size">
               <option value="">Select...</option>
               <option value="1-49">1–49 employees</option>
               <option value="50-200">50–200 employees</option>
@@ -109,7 +113,7 @@
             </select>
 
             <label for="industry">Industry</label>
-            <select id="industry" name="industry">
+            <select id="industry" name="Industry">
               <option value="">Select...</option>
               <option value="healthcare">Healthcare</option>
               <option value="professional-services">Professional Services</option>
@@ -118,17 +122,24 @@
               <option value="other">Other</option>
             </select>
 
-            <label for="challenge">What's your biggest challenge right now?</label>
-            <textarea id="challenge" name="challenge" rows="4"></textarea>
+            <label for="challenge">Biggest Challenge</label>
+            <textarea id="challenge" name="Biggest Challenge" rows="4" placeholder="Tell us about your current challenges..."></textarea>
 
             <label for="referral">How did you hear about us?</label>
-            <select id="referral" name="referral">
+            <select id="referral" name="How Did You Hear About Us">
               <option value="">Select...</option>
               <option value="linkedin">LinkedIn</option>
               <option value="referral">Referral</option>
               <option value="search">Google Search</option>
               <option value="other">Other</option>
             </select>
+
+            <div style="margin-top: 1rem; margin-bottom: 0.5rem;">
+              <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer; font-weight: 500;">
+                <input type="checkbox" name="Discovery Call Requested" value="Yes" style="width: 1.25rem; height: 1.25rem; accent-color: var(--accent-green);">
+                I'd like to book a free discovery call
+              </label>
+            </div>
 
             <button type="submit" class="btn btn--primary" style="margin-top: 0.5rem; width: 100%;">Send Message</button>
           </form>
